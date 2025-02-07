@@ -1,0 +1,13 @@
+services:
+  rag_service:
+    build: .
+    container_name: rag_service
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./uploads:/app/uploads
+      - ./data:/app/data
+    environment:
+      - VECTOR_STORE_PATH=/app/data/chroma_db
+      - CHUNK_SIZE=512
+      - OLLAMA_URL=http://localhost:11434
