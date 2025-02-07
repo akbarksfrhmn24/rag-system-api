@@ -50,7 +50,7 @@ def ingest_document(file_path: str):
 
     # Instantiate the local embedding model.
     embedding_model = LocalEmbedding()
-    # Retrieve the persistent vector store (Chroma).
+    # Retrieve the persistent vector store.
     vector_store = get_vector_store()
 
     # Process each text chunk.

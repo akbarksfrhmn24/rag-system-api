@@ -21,7 +21,7 @@ def get_vector_store() -> Chroma:
             embedding_function=embedding_model  # Pass the embedding instance.
         )
     else:
-        # Create a new Chroma vector store (collection) with no texts initially.
+        # Create a new Chroma vector store with no texts initially.
         vector_store = Chroma.from_texts(
             texts=[],  # Start with an empty collection.
             embedding=embedding_model,  # Use the LocalEmbedding instance.
