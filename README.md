@@ -33,5 +33,9 @@ A Retrieval-Augmented Generation (RAG) system for technical documentation that i
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/rag-system-api.git
+git clone https://github.com/akbarksfrhmn24/rag-system-api.git
 cd rag-system-api
+
+### Install Python Dependencies
+```bash
+pip install -r requirements.txt
