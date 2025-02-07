@@ -108,8 +108,8 @@ Use Postman or any API client to:
 3. Retrieve metrics with the /metrics endpoint.
 You can also use the interactive Swagger UI at /docs to explore and test the API.
 ## Future Improvements
-Advanced Error Handling: Enhance error logging and handling throughout the API.
-Authentication: Add security measures such as API keys or OAuth.
-Enhanced Preprocessing: Improve document processing and chunking.
-Caching: Implement caching to optimize performance.
-Model Flexibility: Allow switching between different embedding or LLM generation models.
+1. Advanced Error Handling: Enhance error logging and handling throughout the API.
+2. Authentication: Add security measures such as API keys or OAuth.
+3. Enhanced Preprocessing: Improve document processing and chunking.
+4. Caching: Implement caching to optimize performance.
+5. Model Flexibility: Allow switching between different embedding or LLM generation models.
